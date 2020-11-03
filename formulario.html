@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formulario</title>
+    </head>
+
+    
+    
+    <body>
+        <h1 style="text-align: center;">Hamburgão</h1>
+        <h2 style="text-align: center;">Cadastro</h2>
+        
+        <div class="area">
+            <form id="formulario">
+                <fieldset >
+                    <legend>Formulario</legend>
+                    <label for="name" style="padding-right: 28px; padding-bottom: 20px; margin-left: 30%;">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Name" required="required" style="padding: 5px; width: 500px;  margin-bottom: 4px;"><br>
+
+                    <label for="email"  style="padding-right: 24px; margin-left: 30%;">E-mail:</label>
+                    </label><input type="email" id="email" name="email" required="required" placeholder="E-mail" style="padding: 5px; width: 500px; margin-bottom: 4px;"><br>
+
+                    <label for="password"  style="padding-right: 6px;  margin-left: 30%;">Password:</label>
+                    </label><input type="password" id="password" name="password" required="required" placeholder="Senha" style="padding: 5px; width: 500px; margin-bottom: 4px;"><br>
+
+                    <label for="referencia" style="padding-right: 0px; padding-bottom: 20px; margin-left: 30%;">Referencia:</label>
+                    <input type="text" id="referencia" name="referencia" placeholder="Referencia" required="required" style="padding: 5px; width: 500px;  margin-bottom: 4px;"><br>
+
+                    <label for="cep" style="padding-right: 40px; padding-bottom: 20px; margin-left: 30%;">CEP:</label>
+                    <input type="text" id="cep" name="cep" placeholder="CEP" required="required" style="padding: 5px; width: 500px;  margin-bottom: 4px;"><br>
+
+                    <label for="endereco" style="padding-right: 8px; padding-bottom: 20px; margin-left: 30%;">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" placeholder="Endereço" required="required" style="padding: 5px; width: 500px;  margin-bottom: 4px;"><br>
+
+                    <label for="numero" style="padding-right: 16px; padding-bottom: 20px; margin-left: 30%;">Numero:</label>
+                    <input type="text" id="numero" name="numero" placeholder="Numero" required="required" style="padding: 5px; width: 500px;  margin-bottom: 4px;"><br>
+
+                    <label for="bairro" style="padding-right: 26px; padding-bottom: 20px; margin-left: 30%;">Bairro:</label>
+                    <input type="text" id="bairro" name="bairro" placeholder="Bairro" required="required" style="padding: 5px; width: 500px;  margin-bottom: 4px;"><br>
+
+                    <label for="cidade" style="padding-right: 24px; padding-bottom: 20px; margin-left: 30%;">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" placeholder="Cidade" required="required" style="padding: 5px; width: 500px;  margin-bottom: 4px;"><br>
+
+                    <label for="estado" style="padding-right: 28px; padding-bottom: 20px; margin-left: 30%;">Estado:</label>
+                    <select id="estado" name="estado" required = "required" style="padding: 5px; width: 510px;  margin-bottom: 4px;">
+                      <option value="AC">Acre</option>
+                      <option value="AL">Alagoas</option>
+                      <option value="AP">Amapá</option>
+                      <option value="AM">Amazonas</option>
+                      <option value="BA">Bahia</option>
+                      <option value="CE">Ceara</option>
+                      <option value="ES">Espirito Santo</option>
+                      <option value="GO">Goias</option>
+                      <option value="MA">Maranhao</option>
+                      <option value="MT">Mato Grosso</option>
+                      <option value="MS">Mato Grosso do sul</option>
+                      <option value="MG">Minas Gerais</option>
+                      <option value="PA">Para</option>
+                      <option value="PB">Paraiba</option>
+                      <option value="PR">Parana</option>
+                      <option value="PR">Pernambuco</option>
+                      <option value="Pi">Piaui</option>
+                      <option value="RJ">Rio de Janeiro</option>
+                      <option value="RN">Rio Grande do Norte</option>
+                      <option value="RS">Rio Grande do Sul</option>
+                      <option value="RO">Rondonia</option>
+                      <option value="RR">Roraima</option>
+                      <option value="SC">Santa Catarina</option>
+                      <option value="SP">Sao Paulo</option>
+                      <option value="SE">Sergipe</option>
+                      <option value="TO">Tocantins</option>
+                      <option value="DF">Distrito Federal</option>
+                      
+                    </select>
+
+                    <h3 style="text-align: center; margin-left: 60px;">Hamburgues</h3>
+
+                    <div class="colum1" style="display: inline-block; margin-left: 30%; margin-top: 20px;">
+
+                        <input type="checkbox" id="pedido_1" name="gender" value="IPIRANGA">
+                        <label for="pedido_1">IPIRANGA</label><br>
+
+                        <input type="checkbox" id="pedido_2" name="gender" value="CHEESE BURGUER">
+                        <label for="pedido_2">CHEESE BURGUER</label><br>
+
+                        <input type="checkbox" id="pedido_3" name="gender" value="COSTA OESTE">
+                        <label for="pedido_3">COSTA OESTE</label><br>
+
+                        <input type="checkbox" id="pedido_4" name="gender" value="ORÁCULO">
+                        <label for="pedido_4">ORÁCULO</label><br>
+
+                        <input type="checkbox" id="pedido_5" name="gender" value="VILA NOVA">
+                        <label for="pedido_5">VILA NOVA</label><br>
+                        
+                    </div>
+
+                    <div class="colum2" style="display: inline-block; margin-left: 20%; margin-top: 20px;">
+
+                        <input type="checkbox" id="pedido_6" name="gender" value="COGÚ">
+                        <label for="pedido_6">COGÚ</label><br>
+
+                        <input type="checkbox" id="pedido_7" name="gender" value="CASTELÕES">
+                        <label for="pedido_7">CASTELÕES</label><br>
+
+                        <input type="checkbox" id="pedido_8" name="gender" value="GRINGO">
+                        <label for="pedido_8">GRINGO</label><br>
+
+                        <input type="checkbox" id="pedido_9" name="gender" value="BRIE">
+                        <label for="pedido_9">BRIE</label><br>
+
+                        <input type="checkbox" id="pedido_10" name="gender" value="RICARDAO DE 4">
+                        <label for="pedido_10">RICARDAO DE 4</label><br>
+                        
+                    </div>
+
+                    <h3 style="text-align: center; margin-left: 60px; margin-top: 20px; margin-bottom: 20px;">Bebidas</h3>
+
+                    <div class="colum1" style="display: inline-block; margin-left: 30%; margin-top: 20px;">
+
+                        <input type="checkbox" id="pedido_11" name="gender" value="pedido_1">
+                        <label for="pedido_1">AGUA</label><br>
+
+                       
+
+                        <input type="checkbox" id="pedido_12" name="gender" value="pedido_1">
+                        <label for="pedido_4">COCA-COLA</label><br>
+
+                        <input type="checkbox" id="pedido_13" name="gender" value="pedido_1">
+                        <label for="pedido_5">GUANARA JESUS</label><br>
+                        
+                    </div>
+
+                    <div class="colum2" style="display: inline-block; margin-left: 20%; margin-top: 20px;">
+
+                        <input type="checkbox" id="pedido_14" name="gender" value="pedido_1">
+                        <label for="pedido_6">SUCO DE MARACUJA</label><br>
+
+                        <input type="checkbox" id="pedido_15" name="gender" value="pedido_1">
+                        <label for="pedido_7">SUCO DE LARANJA</label><br>
+
+                        <input type="checkbox" id="pedido_16" name="gender" value="pedido_1">
+                        <label for="pedido_8">AGUA COCA LATAO</label><br>
+
+                       
+                    </div>
+
+
+
+                    <br>
+                    <input class="bnt_submit" type="submit" value="Enviar" style=" margin-left: 46%; margin-top: 30px;
+                    width: 200px; height: 100; background-color:blue; color: white; font-size: 20px; border-radius: 4px;
+                    font-size: x-large;">
+
+                </fieldset>
+            </form>
+        </div>
+
+    </body>
+</html>
